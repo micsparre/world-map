@@ -1,0 +1,19 @@
+.container {
+  max-width: 1200px;
+  max-height: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 300px;
+    max-height: 150px;
+  }
+}

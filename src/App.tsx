@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 import MapChart from "./MapChart";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="App">
       <MapChart />
     </div>
   );
