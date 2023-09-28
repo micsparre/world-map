@@ -77,7 +77,6 @@ const MapChart: React.FC = () => {
         projectionConfig={{
           rotate: rotation, // Set the rotation based on state
           scale: 200,
-          // center: [0, -20], // Set the center projection to New York City
         }}
         height={450}
         style={{ width: "100%", height: "auto" }}
