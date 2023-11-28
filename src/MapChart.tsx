@@ -47,7 +47,7 @@ const MapChart: React.FC = () => {
   };
 
   const handleCountryClick = (geo: any) => {
-    const country = geo.properties.name;
+    const country = geo.properties.ADMIN;
     console.log(country);
     if (visitedCountries.includes(country)) {
       setVisitedCountries(
@@ -99,7 +99,7 @@ const MapChart: React.FC = () => {
                 }}
                 style={{
                   default: {
-                    fill: visitedCountries.includes(geo.properties.name)
+                    fill: visitedCountries.includes(geo.properties.ADMIN)
                       ? "#184d08"
                       : "#D6D6DA",
                     outline: "#D6D6DA",
@@ -123,7 +123,7 @@ const MapChart: React.FC = () => {
       </ComposableMap>
       <button onClick={handleResetClick}>Reset Rotation</button>
       {tooltipCountry && (
-        <h2 style={{ color: "white" }}> {tooltipCountry.properties.name} </h2>
+        <h2 style={{ color: "white" }}> {tooltipCountry.properties.ADMIN} </h2>
       )}
     </div>
   );
