@@ -7,9 +7,6 @@ import {
 } from "react-simple-maps";
 import "./MapChart.css";
 
-const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
-
 const homeCoordinates: [number, number, number] = [100, -40, 0];
 
 const MapChart: React.FC = () => {
@@ -84,8 +81,8 @@ const MapChart: React.FC = () => {
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
       >
-        <Sphere id="ocean" fill="#e2f9fe" stroke="#D6D6DA" strokeWidth={0.5} />
-        <Geographies geography={geoUrl}>
+        <Sphere id="ocean" fill="#5eabdb" stroke="#D6D6DA" strokeWidth={1} />
+        <Geographies geography={process.env.PUBLIC_URL + "/features.json"}>
           {({ geographies }) =>
             geographies.map((geo: any) => (
               <Geography
@@ -95,7 +92,7 @@ const MapChart: React.FC = () => {
                 style={{
                   default: {
                     fill: visitedCountries.includes(geo.properties.name)
-                      ? "#355C7D"
+                      ? "#184d08"
                       : "#D6D6DA",
                     outline: "#D6D6DA",
                   },
