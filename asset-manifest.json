@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/worldmap/static/css/main.e5467678.css",
-    "main.js": "/worldmap/static/js/main.0ffe06ff.js",
-    "static/js/496.08bcf64c.chunk.js": "/worldmap/static/js/496.08bcf64c.chunk.js",
-    "index.html": "/worldmap/index.html",
-    "main.e5467678.css.map": "/worldmap/static/css/main.e5467678.css.map",
-    "main.0ffe06ff.js.map": "/worldmap/static/js/main.0ffe06ff.js.map",
-    "496.08bcf64c.chunk.js.map": "/worldmap/static/js/496.08bcf64c.chunk.js.map"
+    "main.css": "/world-map/static/css/main.e5467678.css",
+    "main.js": "/world-map/static/js/main.f9102612.js",
+    "static/js/496.bee4b18e.chunk.js": "/world-map/static/js/496.bee4b18e.chunk.js",
+    "index.html": "/world-map/index.html",
+    "main.e5467678.css.map": "/world-map/static/css/main.e5467678.css.map",
+    "main.f9102612.js.map": "/world-map/static/js/main.f9102612.js.map",
+    "496.bee4b18e.chunk.js.map": "/world-map/static/js/496.bee4b18e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5467678.css",
-    "static/js/main.0ffe06ff.js"
+    "static/js/main.f9102612.js"
   ]
 }
