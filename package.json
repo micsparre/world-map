@@ -1,7 +1,7 @@
 {
-  "name": "worldmap-app",
+  "name": "world-map",
   "version": "0.1.0",
-  "homepage": "https://micsparre.github.io/worldmap",
+  "homepage": "https://micsparre.github.io/world-map",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^14.0.0",
