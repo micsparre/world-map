@@ -1,4 +1,4 @@
-# worldmap
+# world-map
 
 ## Note: this only works on laptops (not mobile)
 
